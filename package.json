@@ -1,0 +1,13 @@
+{
+  "name": "electron",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "./main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "start-app-osx": "./osx/Electron.app/Contents/MacOS/Electron ./main.js",
+    "start-app-win": ".\\windows\\electron.exe .\\main.js",
+    "setup-app": "curl -O https://s3.amazonaws.com/polleverywhere-downloads/Electron.zip && unzip Electron.zip"
+  },
+  "homepage": "https://presenter.polleverywhere.com",
+}
