@@ -9,5 +9,5 @@
     "start-app-win": ".\\windows\\electron.exe .\\main.js",
     "setup-app": "curl -O https://s3.amazonaws.com/polleverywhere-downloads/Electron.zip && unzip Electron.zip"
   },
-  "homepage": "https://presenter.polleverywhere.com",
+  "homepage": "https://presenter.polleverywhere.com"
 }
