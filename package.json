@@ -6,6 +6,7 @@
   "scripts": {
     "start": "electron main.js",
     "start-app-osx": "./osx/Electron.app/Contents/MacOS/Electron ./main.js",
+    "start-app-osx-debug": "./osx/Electron.app/Contents/MacOS/Electron --inspect=5858 ./main.js",
     "start-app-win": ".\\windows\\electron.exe .\\main.js",
     "setup-app": "curl -O https://s3.amazonaws.com/polleverywhere-downloads/Electron.zip && unzip Electron.zip"
   },
